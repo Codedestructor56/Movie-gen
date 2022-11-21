@@ -3,7 +3,7 @@ import openai
 
 app=Flask(__name__)
 
-openai.api_key = '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'
+openai.api_key = 'YOUR_API_KEY'
 
 def prompt_creator(genre,description,num=1):
   if num==1:
